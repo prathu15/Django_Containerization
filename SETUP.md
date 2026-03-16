@@ -124,5 +124,7 @@ docker run -d -p 8000:8000 django-app
 
 http://<public-ip>:8000
 
+![Docker Container Running](Screenshot%202026-03-16%20102932.png)
+
 Result
 The Django application was successfully deployed on an Azure Virtual Machine using Docker and became accessible through the VM’s public IP address.
