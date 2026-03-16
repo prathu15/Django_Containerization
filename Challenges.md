@@ -44,3 +44,20 @@ Once port 8000 was allowed, the Django application became accessible through the
 ---
 
 ![Screenshot](Screenshot%202026-03-16%20101726.png)
+
+DisallowedHost  
+Invalid HTTP_HOST header: '135.235.195.205:8000'
+
+This happens because Django only allows requests from hosts listed in the `ALLOWED_HOSTS` setting.
+
+To fix this issue, I edited the Django settings file:
+
+vim myproject/settings.py
+
+and updated the configuration:
+
+ALLOWED_HOSTS = ['*']
+
+After rebuilding and restarting the Docker container, the application became accessible successfully.
+
+![Screenshot](Screenshot%202026-03-16%20101937.png)
