@@ -79,6 +79,8 @@ RUN pip install -r requirements.txt
 COPY . .
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
+![Dockerfile Screenshot](Screenshot%202026-03-16%20100703.png)
+
 9. Build Docker Image
    I built the Docker image for the application.
 
