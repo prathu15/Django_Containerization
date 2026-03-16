@@ -43,11 +43,4 @@ Once port 8000 was allowed, the Django application became accessible through the
 
 ---
 
-## Key Takeaways
-
-Through these challenges, I gained practical experience with:
-
-- Docker permissions and user groups
-- Python virtual environments
-- Azure Network Security Group (NSG) configuration
-- Debugging deployment issues in cloud environments
+![Screenshot](Screenshot%202026-03-16%20101726.png)
