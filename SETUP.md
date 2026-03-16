@@ -47,7 +47,7 @@ source venv/bin/activate
 pip install django
 django-admin --version
 
-![Django Installation](Screenshot%202026-03-16%20094350.png)
+
 
 6. Create Django Project
    I created a Django project and moved into the project directory.
